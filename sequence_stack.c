@@ -49,7 +49,6 @@ void read(sequence_stack *st)
  }
    
 
-
 //主函数部分
 void main()
 {  datatype x;
