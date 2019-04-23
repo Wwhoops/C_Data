@@ -101,7 +101,7 @@ void display(sequence_list *slt)
       }
    printf("\n");
    
-}
+} 
 
 //主函数部分
 void main()
