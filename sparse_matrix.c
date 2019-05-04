@@ -1,4 +1,4 @@
-#define max 100
+#define max 20
 #include<stdio.h>
 typedef struct{
    int data[max][max];
@@ -60,7 +60,7 @@ void compressmatrix(matrix a,spmatrix b) /* 将稀疏矩阵转换成其三元组
 	 i++;
       }
    c[1][1]=1;  /*第一列放在第一行*/
-   while(j<i)	  /*求出每行的起始位置*/
+   while(j<=b[0][1])	  /*求出每行的起始位置*/
       {
 	 c[j][1]=c[j-1][0]+c[j-1][1];
 	 j++;
